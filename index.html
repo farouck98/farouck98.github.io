@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> Farouck Latoundji Portfolio </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<i class="fas fa-database fa-3x"></i> <!-- Nuage -->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Farouck LATOUNDJI</h1>
+								<p>Data Analyst || Software Engineer || Power BI, Excel, Python, SQL (En Recherche d'un contrat d'apprentissage pour effectuer mon master en Data et IA)</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">A propos de moi</a></li>
+								<li><a href="#work">Mes Projets</a></li>
+								<li><a href="#about">Mes certificats</a></li>
+								<li><a href="#contact">Mes Contacts</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">A propos de moi</h2>
+								<span class="image main"><img src="images/IMG_3443.jpeg" alt="" /></span>
+								<p style="text-align: justify;">Passionné par les données et les technologies, je suis actuellement à la recherche d'une alternance pour finaliser mon Master en Data et Intelligence Artificielle.</p>
+								<p style="text-align: justify;">Avec une expérience significative en développement web et en analyse de données, j'ai contribué à des projets variés tels que le développement d'une application de gestion de santé pour une entreprise et l'analyse prédictive du churn, réalisée dans le cadre d'un projet personnel. Ces expériences m'ont permis de renforcer mes compétences techniques en Python, SQL, Power BI, ainsi qu'en frameworks comme Laravel et Node.js. J'ai également une bonne connaissance des outils DevOps tels que Docker et Kubernetes, et je suis à l'aise avec les bases de données relationnelles et non relationnelles.</p>
+								<p style="text-align: justify;">Motivé, organisé et curieux, je m'engage à apporter ma rigueur et mon esprit analytique à une équipe ambitieuse. Mon objectif est de continuer à apprendre tout en contribuant activement à des projets innovants qui auront un impact concret.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">RAPPORT DE PRETS BANCAIRES</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/bank_loan_project.pbix"><span class="image main"><img src="images/Capture1.PNG" alt="" /></span></a>
+								<p style="text-align: justify;">Ce projet consiste en l’analyse des performances des prêts bancaires à l’aide de données issues d’une base SQL et de visualisations interactives créées dans Power BI. L’objectif principal était d’extraire des tendances clés et de fournir des insights exploitables pour aider à la prise de décision stratégique. Pour ce faire, j’ai commencé par extraire les données brutes via des requêtes SQL permettant de calculer des indicateurs comme le montant total financé, le montant reçu, les taux d’intérêt moyens, ainsi que la classification des prêts en bons ou mauvais. Ensuite, ces données ont été transformées et agrégées pour effectuer une segmentation détaillée selon des critères tels que les objectifs des prêts, leur durée, leur ancienneté ou encore l’état de résidence des emprunteurs.</p>
+								<p style="text-align: justify;">Dans Power BI, j’ai conçu trois tableaux de bord principaux. Le premier, intitulé "Résumé", fournit une vue globale des indicateurs clés, tels que les montants financés et reçus, le pourcentage de prêts performants (86,2 %) et irrécouvrables (13,8 %). Le second, "Aperçu", présente des analyses détaillées des tendances mensuelles et des répartitions par segment, révélant par exemple que la consolidation de dettes est l’objectif le plus fréquent (18K demandes) et que les prêts sur 60 mois dominent largement (73,2 % des demandes). Enfin, le tableau "Détails" permet une exploration granulaire des prêts individuels, avec des informations comme les montants financés, les taux d’intérêt, et les statuts.</p>
+								<p style="text-align: justify;">Ce projet a démontré ma capacité à extraire et analyser des données complexes avec SQL, à concevoir des visualisations dynamiques dans Power BI, et à interpréter les résultats pour en tirer des recommandations concrètes. Grâce à ces rapports, il est possible de suivre efficacement les performances mensuelles, d’identifier des zones à risque, et d’optimiser les stratégies pour réduire les prêts irrécouvrables. En mettant en avant une croissance des montants reçus (+15,9 % MTD) et financés (+13,1 % MTD), ce travail contribue à fournir une vision claire et stratégique des opérations bancaires.</p>
+							</article>
+							<article id="work">
+								<h2 class="major">Analyse du Taux de Churn</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/telecom_churn_analysis.pbix"><span class="image main"><img src="images/Capture2.PNG" alt="" /></span></a>
+								<p style="text-align: justify;">Dans ce projet, j’ai analysé le taux de désabonnement (churn) d’une base de 7 043 clients en combinant SQL, Power BI et Python pour identifier et prédire les clients à risque. À l’aide de SQL, j’ai extrait et transformé les données, notamment en segmentant les clients selon des critères démographiques (genre, tranche d'âge, état civil), comportementaux (contrat, méthode de paiement) et géographiques. Ces données ont ensuite été visualisées dans Power BI, permettant de mettre en évidence des tendances clés : un taux de désabonnement global de 26,5 %, une forte concentration de résiliations chez les clients sous contrat mensuel (45,8 %) et utilisant des services comme l’Internet par fibre optique (40,7 %). J’ai ensuite développé un modèle prédictif en Python en utilisant la régression logistique, un algorithme supervisé particulièrement adapté à la classification binaire (désabonné ou non). Ce modèle a permis d’identifier avec précision 444 clients à risque en analysant des variables critiques comme les charges mensuelles et le type de services souscrits. Ce projet démontre ma capacité à transformer des données complexes en insights exploitables, tout en reliant analyse descriptive et analytique pour guider les décisions stratégiques.</p>
+							</article>
+							<article id="work">
+								<h2 class="major">Analyse des coûts logistiques</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/analyse_greenTech_logistics.pbix"><span class="image main"><img src="images/Capture3.PNG" alt="" /></span></a>
+								<p style="text-align: justify;">Dans ce projet pour "GreenTrans Logistics", j’ai conçu un tableau de bord Power BI interactif permettant à la direction d’optimiser les coûts logistiques à travers plusieurs régions. J’ai analysé les itinéraires les plus coûteux, mettant en évidence des routes spécifiques comme Centre-Sud (16 577 €) pour des optimisations ciblées. J’ai également étudié la répartition des coûts par transporteur, révélant qu’EcoTransport est le plus onéreux avec 14 105 €. De plus, une analyse approfondie des produits a permis d’identifier les articles les plus contributeurs aux dépenses logistiques, comme le produit 13 (3 853 €). Grâce à ces insights, la direction peut désormais négocier des tarifs, prioriser les régions stratégiques et optimiser ses opérations. Ce projet démontre mes compétences en analyse de données, en visualisation et en mise en place de solutions stratégiques adaptées aux besoins de l’entreprise.</p>
+							</article>
+							<article id="work">
+								<h2 class="major">Prédiction de dépôts bancaires</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/bank_deposit_analysis.ipynb"><span class="image main"><img src="images/Capture4.jpg" alt="" /></span></a>
+								<p style="text-align: justify;">Dans ce projet, j’ai développé un modèle de machine learning basé sur Random Forest pour prédire la probabilité qu’un client souscrive un dépôt bancaire. À partir d’un ensemble de données comprenant 45 211 observations, j’ai préparé les données en encodant les variables catégorielles et en standardisant les valeurs numériques. Le modèle a atteint une précision de 92 %, avec une courbe ROC indiquant une excellente séparation des classes (AUC = 0,92). Pour enrichir l’analyse, j’ai créé des visualisations expliquant la distribution des variables et mettant en lumière les caractéristiques les plus influentes dans la prédiction. Ce projet démontre ma capacité à manipuler des données complexes, à concevoir des modèles performants et à fournir des insights clairs pour guider des décisions stratégiques.</p>
+							</article>
+							<article id="work">
+								<h2 class="major">Analyse d'un centre d’appels</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/call_center.ipynb"><span class="image main"><img src="images/Capture5.jpg" alt="" /></span></a>
+								<p style="text-align: justify;">Dans ce projet, j’ai analysé les données d’un centre d’appels contenant 70 interactions clients afin d’identifier les facteurs influençant la satisfaction (CSAT) et le sentiment des clients. À l’aide de visualisations interactives, j’ai étudié la répartition des sentiments, montrant une prédominance des ressentis négatifs, et mis en évidence une corrélation entre la durée des appels, les délais de réponse (SLA) et les scores CSAT. L’analyse par canal a révélé que certains canaux, comme les e-mails, offrent des performances inférieures en termes de satisfaction client. Ces insights permettent de recommander des priorités stratégiques telles que l’optimisation des délais de réponse et l’amélioration des canaux sous-performants. Ce projet démontre mes compétences en analyse de données et en création de visualisations exploitables pour orienter les décisions.</p>
+							</article>
+							<article id="work">
+								<h2 class="major">Analyse d’un supermarché</h2>
+								<a href="https://github.com/farouck98/Portofolio-project/blob/main/superstore_analysis.ipynb"><span class="image main"><img src="images/Capture6.jpg" alt="" /></span></a>
+								<p style="text-align: justify;">Dans ce projet, j’ai mené une analyse détaillée des données d’un supermarché, en explorant les ventes et les bénéfices par catégorie, sous-catégorie et produit. À travers des visualisations interactives, j’ai mis en évidence les produits les plus performants (ex. : téléphones et chaises) et les moins rentables (ex. : imprimantes). J’ai également étudié les variations temporelles et géographiques des ventes pour identifier les pics de performance et les régions les plus lucratives. Enfin, une analyse RFM a permis de segmenter les clients selon leur comportement d'achat, offrant des insights précieux pour des stratégies de fidélisation et de marketing ciblé. Ce projet démontre ma capacité à transformer des données complexes en recommandations exploitables pour maximiser la rentabilité.</p>
+							</article>
+							
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Microsoft et linkedIn</h2>
+								<span class="image main"><img src="images/Capture7.PNG" alt="" /></span>
+								<p style="text-align: justify;">Ce cursus d'apprentissage m'a permis :
+									<li>d'Acquérir une base solide dans les concepts d'analyse de données.</li>
+									<li>d'Explorer les outils logiciels d'analyse de données.</li>
+									<li>de Développer des compétences en visualisation de données.</li>
+									
+								</p>
+								<h2 class="major">L'Essentiel de Power BI</h2>
+								<span class="image main"><img src="images/Capture8.PNG" alt="" /></span>
+								<p style="text-align: justify;">Cette formation m'a permis :
+									<li>de comprendre les bases de Power BI</li>
+									<li>d'extraire et préparer les données </li>
+									<li>de créer et structurer un modèle de données</li>
+									<li>de concevoir des visualisations efficaces</li>
+									<li>d'explorer les calculs visuels avec DAX  </li>
+									<li>de construire des rapports et tableaux de bord exploitables.</li>	
+								</p>
+								<h2 class="major">Python: L'analyse de données</h2>
+								<span class="image main"><img src="images/Capture9.PNG" alt="" /></span>
+								<p style="text-align: justify;">Cette formation m'a permis :
+									<li>de comprendre le rôle central du data scientist</li>
+									<li>d'apprendre les fondamentaux de Python pour travailler efficacement avec des données </li>
+									<li>d'utiliser des bibliothèques clés comme Numpy et Pandas</li>
+									<li>d'assimiler des méthodes d’analyse et de manipulation de données grâce à des exemples concrets</li>
+								</p>
+							</article>
+
+						<!-- Contact -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							
+							<ul class="icons">
+								<!-- LinkedIn -->
+								<li>
+									<a href="https://www.linkedin.com/in/farouck-latoundji-487728170/" 
+									   class="icon brands fa-linkedin" 
+									   target="_blank" 
+									   rel="noopener noreferrer">
+										<span class="label">LinkedIn</span>
+									</a>
+								</li>
+						
+								<!-- GitHub -->
+								<li>
+									<a href="https://github.com/farouck98" 
+									   class="icon brands fa-github" 
+									   target="_blank" 
+									   rel="noopener noreferrer">
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+						
+								<!-- Email -->
+								<li>
+									<a href="mailto:latoundjifarouck@gmail.com" 
+									   class="icon solid fa-envelope">
+										<span class="label">Email</span>
+									</a>
+								</li>
+						
+								<!-- Phone -->
+								<li>
+									<a href="tel:+33768957764" 
+									   class="icon solid fa-phone">
+										<span class="label">Téléphone</span>
+									</a>
+								</li>
+							</ul>
+						</article>
+						
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
